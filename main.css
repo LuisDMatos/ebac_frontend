@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: blanchedalmond;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+header {
+    margin: 80px auto;
+    max-width: 640px;
+    width: 100%;
+    }
+
+.container {
+    margin: 80px auto;
+    max-width: 640px;
+    width: 100%;
+}
+
+form {
+    margin-top: 40px;
+}
+
+input, button {
+    display: block;
+    padding: 8px;
+    margin-bottom: 8px;
+    width: 100%;
+    resize: none;
+}
+
+input {
+    color: black;
+    background-color: rgb(220, 245, 164);
+}
+
+button {
+    background-color: rgba(185, 46, 46, 0.603);
+}
