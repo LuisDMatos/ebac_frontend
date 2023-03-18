@@ -6,7 +6,7 @@ form.addEventListener('submit', function(e){
 
     const comparador1 = document.getElementById('numero1').value;
     const comparador2 = document.getElementById('numero2').value;
-    const comparacao = `O valor B: ${comparador2} é maior que A: ${comparador1}`;
+    const comparacao = `O valor B: ${comparador2} é maior que A: ${comparador1}, muito bem!`;
 
     if (parseInt(comparador1) < parseInt(comparador2)) {
         alert(comparacao);
